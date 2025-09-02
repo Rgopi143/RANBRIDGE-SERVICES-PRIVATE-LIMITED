@@ -38,7 +38,7 @@ const Navbar = () => {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              {['home', 'about', 'services', 'team', 'contact'].map((item) => (
+              {['home', 'about', 'services', 'team', 'contact', 'courses'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -49,6 +49,16 @@ const Navbar = () => {
                   {item}
                 </button>
               ))}
+              <a
+                href="https://ranbridge-services-private-limited.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`px-3 py-2 text-sm font-medium transition-colors duration-300 capitalize hover:text-blue-500 ${
+                  scrolled ? 'text-gray-700' : 'text-white'
+                }`}
+              >
+                Visit cources
+              </a>
             </div>
           </div>
 
@@ -68,7 +78,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            {['home', 'about', 'services', 'team', 'contact'].map((item) => (
+            {['home', 'about', 'services', 'team', 'contact', 'courses'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -77,6 +87,14 @@ const Navbar = () => {
                 {item}
               </button>
             ))}
+            <a
+              href="https://ranbridge-services-private-limited.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-500 capitalize w-full text-left"
+            >
+              Visit cources
+            </a>
           </div>
         </div>
       )}
