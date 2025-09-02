@@ -50,7 +50,7 @@ const Navbar = () => {
                 </button>
               ))}
               <a
-                href="https://ranbridge-services-private-limited.onrender.com"
+                href="https://interns-ui-for-showing-cources.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`px-3 py-2 text-sm font-medium transition-colors duration-300 capitalize hover:text-blue-500 ${
