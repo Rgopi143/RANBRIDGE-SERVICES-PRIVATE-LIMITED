@@ -5,6 +5,20 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const navItems = [
+    { id: 'home', label: 'Home' },
+    { id: 'about', label: 'About' },
+    { id: 'services', label: 'Services' },
+    { id: 'team', label: 'Team' },
+    { id: 'contact', label: 'Contact' },
+   
+  ];
+
+  const externalLink = {
+    url: 'https://interns-ui-for-showing-cources.onrender.com/',
+    label: 'Visit Courses',
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -22,48 +36,57 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
+  const navLinkClasses = (isMobile = false) =>
+    `px-3 py-2 font-medium transition-colors duration-300 capitalize ${
+      isMobile
+        ? 'block text-left text-base text-gray-700 hover:text-blue-500 w-full'
+        : `text-sm ${
+            scrolled ? 'text-gray-700' : 'text-white'
+          } hover:text-blue-500`
+    }`;
+
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white shadow-lg' : 'bg-transparent'
-    }`}>
+    <nav
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        scrolled ? 'bg-white shadow-lg' : 'bg-transparent'
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
+          {/* Logo */}
           <div className="flex-shrink-0">
-            <img 
-              src="/Company Logo.jpg" 
-              alt="RANBRIDGE Logo" 
+            <img
+              src="/Company Logo.jpg"
+              alt="RANBRIDGE Logo"
               className="h-12 w-auto object-contain"
             />
           </div>
-          
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
-              {['home', 'about', 'services', 'team', 'contact', 'courses'].map((item) => (
-                <button
-                  key={item}
-                  onClick={() => scrollToSection(item)}
-                  className={`px-3 py-2 text-sm font-medium transition-colors duration-300 capitalize hover:text-blue-500 ${
-                    scrolled ? 'text-gray-700' : 'text-white'
-                  }`}
-                >
-                  {item}
-                </button>
-              ))}
-              <a
-                href="https://interns-ui-for-showing-cources.onrender.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`px-3 py-2 text-sm font-medium transition-colors duration-300 capitalize hover:text-blue-500 ${
-                  scrolled ? 'text-gray-700' : 'text-white'
-                }`}
+
+          {/* Desktop Menu */}
+          <div className="hidden md:flex ml-10 space-x-8">
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className={navLinkClasses()}
               >
-                Visit cources
-              </a>
-            </div>
+                {item.label}
+              </button>
+            ))}
+            <a
+              href={externalLink.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={navLinkClasses()}
+            >
+              {externalLink.label}
+            </a>
           </div>
 
+          {/* Mobile Menu Toggle */}
           <div className="md:hidden">
             <button
+              aria-label="Toggle menu"
               onClick={() => setIsOpen(!isOpen)}
               className={`p-2 transition-colors duration-300 ${
                 scrolled ? 'text-gray-700' : 'text-white'
@@ -75,25 +98,26 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            {['home', 'about', 'services', 'team', 'contact', 'courses'].map((item) => (
+            {navItems.map((item) => (
               <button
-                key={item}
-                onClick={() => scrollToSection(item)}
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-500 capitalize w-full text-left"
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className={navLinkClasses(true)}
               >
-                {item}
+                {item.label}
               </button>
             ))}
             <a
-              href="#"
+              href={externalLink.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-500 capitalize w-full text-left"
+              className={navLinkClasses(true)}
             >
-              Visit cources
+              {externalLink.label}
             </a>
           </div>
         </div>
@@ -102,4 +126,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar;  
