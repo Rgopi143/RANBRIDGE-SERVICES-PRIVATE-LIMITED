@@ -88,7 +88,7 @@ const Navbar = () => {
               </button>
             ))}
             <a
-              href="https://ranbridge-services-private-limited.onrender.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-500 capitalize w-full text-left"
