@@ -32,7 +32,7 @@ const Team = () => {
     {
       name: 'B. Varun Sandesh',
       role: 'Director - Operations',
-      image: 'https://ik.imagekit.io/lzkvcfcjfq/company-pictures/final%20varun.jpg',
+      image: '/varun-operational-head.jpg',
       bio: 'Operations director ensuring seamless project delivery and client satisfaction across all IT services.',
       linkedin: 'https://www.linkedin.com/in/varun-sandesh-bokka-15b860325?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGUmH0ThrQ%2BWIa4KBKPkSkA%3D%3D',
       github: 'https://github.com/varun313-git',
