@@ -62,7 +62,7 @@ const Team = () => {
                 <img 
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-40 h-40 rounded-full object-cover mx-auto my-6 group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 
