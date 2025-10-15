@@ -1,5 +1,4 @@
-import React from 'react';
-import { Linkedin, Instagram, Github } from 'lucide-react';
+import { Linkedin, Github } from 'lucide-react';
 
 const Team = () => {
   const teamMembers = [
@@ -15,10 +14,11 @@ const Team = () => {
     {
       name: 'N.V.S.A.G. Prakash',
       role: 'Co-Founder & CTO',
-      image: 'https://ik.imagekit.io/76tcs71lul/prakash%20-%20CTO.png?updatedAt=1760543686828',
+      image: 'https://ik.imagekit.io/76tcs71lul/prakash%20-%20CTO.png?updatedAt=1760547442154',
       bio: 'Co-founder driving technical excellence across all IT services, from web development to AI-powered solutions.',
       linkedin: 'https://www.linkedin.com/in/narayanam-v-s-a-g-prakash-7aab93328?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BW2We9JIgSPScDIWmh%2BzqFQ%3D%3D',
       github: 'https://github.com/PrakashNarayanam',
+      portfolio: 'https://prakashnarayanam.github.io/Prakash-s-Portfolio/',
     },
     {
       name: 'A. Naga Ravindra',
@@ -89,16 +89,7 @@ const Team = () => {
               
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
-                {member.role === 'Co-Founder & CTO' ? (
-                  <a
-                    href="https://prakashnarayanam.github.io/Prakash-s-Portfolio/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 font-semibold mb-3 hover:text-blue-800"
-                  >
-                    {member.role}
-                  </a>
-                ) : member.portfolio ? (
+                {member.portfolio ? (
                   <a
                     href={member.portfolio}
                     target="_blank"
