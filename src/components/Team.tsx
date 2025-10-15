@@ -23,7 +23,7 @@ const Team = () => {
     {
       name: 'A. Naga Ravindra',
       role: 'Director - Technology',
-      image: 'https://ik.imagekit.io/lzkvcfcjfq/company-pictures/ravi-final.jpg',
+      image: '/ravindra-director-technology.jpg',
       bio: 'Technology director overseeing mobile app development, cloud services, and enterprise solutions.',
       linkedin: 'https://www.linkedin.com/in/naga-ravindra-alla?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BuKSOR9h%2FQEqBt2Ars5bPQw%3D%3D',
       github: 'https://github.com/Ravindra-alla',
