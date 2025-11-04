@@ -23,7 +23,7 @@ const Team = () => {
     {
       name: 'A. Naga Ravindra',
       role: 'Director - Technology',
-      image: '/ravindra-director-technology.jpg',
+      image: 'https://ik.imagekit.io/lg14qfjkg/WhatsApp%20Image%202025-11-04%20at%2010.04.54_1166cd51.jpg',
       bio: 'Technology director overseeing mobile app development, cloud services, and enterprise solutions.',
       linkedin: 'https://www.linkedin.com/in/naga-ravindra-alla?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BuKSOR9h%2FQEqBt2Ars5bPQw%3D%3D',
       github: 'https://github.com/Ravindra-alla',
@@ -56,14 +56,20 @@ const Team = () => {
           {teamMembers.map((member, index) => (
             <div 
               key={index}
-              className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full"
             >
-              <div className="relative overflow-hidden">
-                <img 
-                  src={member.image}
-                  alt={member.name}
-                  className="w-40 h-40 rounded-full object-cover mx-auto my-6 group-hover:scale-105 transition-transform duration-500"
-                />
+              <div className="relative overflow-hidden h-64 flex items-center justify-center bg-gray-100">
+                <div className="w-full h-full overflow-hidden">
+                  <img 
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = 'https://via.placeholder.com/300x300?text=Team+Member';
+                    }}
+                  />
+                </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 
                 {/* Social Links */}
@@ -87,8 +93,8 @@ const Team = () => {
                 </div>
               </div>
               
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
+              <div className="p-6 bg-white">
+                <h3 className="text-xl font-bold text-gray-900 mb-1 group-hover:text-blue-600 transition-colors duration-300">{member.name}</h3>
                 {member.portfolio ? (
                   <a
                     href={member.portfolio}
