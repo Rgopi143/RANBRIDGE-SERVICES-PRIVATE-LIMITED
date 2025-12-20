@@ -5,8 +5,7 @@ const Footer = (props: { onPrivacyClick?: () => void; onTermsClick?: () => void;
   // Data structure with specific href paths for links
   const footerLinks = {
     Company: [
-      { text: 'About Us', href: '#team', type: 'scroll' },
-      { text: 'Our Team', href: '#team', type: 'scroll' },
+      { text: 'About Us', href: '#about', type: 'scroll' },
       { text: 'Careers', href: '#', type: 'modal' },
       { text: 'Case Studies', href: '#', type: 'modal' }
     ],
