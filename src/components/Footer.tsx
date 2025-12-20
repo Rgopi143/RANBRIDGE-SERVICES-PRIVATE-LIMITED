@@ -62,9 +62,11 @@ const Footer = (props: { onPrivacyClick?: () => void; onTermsClick?: () => void;
                 <Phone size={16} className="text-blue-400" />
                 <span className="text-gray-400">+91 8247392437</span>
               </div>
-              <div className="flex items-center gap-3">
-                <MapPin size={16} className="text-blue-400" />
-                <span className="text-gray-400">Srinivasa Nagar, Narasaraopet, Andhra Pradesh, India</span>
+              <div className="flex items-center gap-4">
+                <MapPin size={40} className="text-blue-400" />
+                <span className="text-gray-400">T Hub Phase 2
+20, Inorbit Mall Road, Vittal Rao Nagar, Madhapur, Madhapur, Telangana - 500081
+India</span>
               </div>
             </div>
           </div>
