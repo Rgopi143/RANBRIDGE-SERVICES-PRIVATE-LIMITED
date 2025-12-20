@@ -36,7 +36,7 @@ const About = () => {
               development with Flutter and React Native, cloud services, and cutting-edge AI solutions. 
               We're your one-stop destination for all online IT services.
             </p>
-            <a href="#team">
+            <a href="#contact">
               <button className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-300">
                 Learn More About Us
               </button>
