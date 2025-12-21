@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   const externalLink = {
-    url: 'https://interns-ui-for-showing-cources.onrender.com/',
+    url: 'https://ranbridge-intern-web.netlify.app/',
     label: 'Visit Courses',
   };
 
