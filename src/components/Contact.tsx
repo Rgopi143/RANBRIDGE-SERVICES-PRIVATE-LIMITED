@@ -51,7 +51,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Visit Us',
-      info: '00D2 Ravindra Nagar, Srinivasa Nagar, Narasaraopet, Palnadu',
+      info: 'T Hub Phase 2 20, Inorbit Mall Road, Vittal Rao Nagar, Madhapur, Madhapur, Telangana - 500081 India',
       link: 'mailto:ranbridgeserviceprivatelimited@gmail.com?subject=Visit%20Request'
     }
   ];
