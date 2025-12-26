@@ -14,7 +14,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            About <span className="text-blue-600">RANBRIDGE SERVICES</span>
+            About <span className="text-blue-600">RANBIDGE SOLUTIONS</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Your trusted partner for comprehensive IT services and digital transformation solutions.
@@ -27,7 +27,7 @@ const About = () => {
               Complete IT Solutions Under One Roof
             </h3>
             <p className="text-lg text-gray-600 mb-6">
-              RANBRIDGE SERVICES PRIVATE LIMITED specializes in delivering comprehensive IT services 
+              RANBIDGE SOLUTIONS PRIVATE LIMITED specializes in delivering comprehensive IT services 
               that bridge the gap between innovation and real-world impact. From custom web applications 
               to AI-powered solutions, we provide everything your business needs to thrive digitally.
             </p>
