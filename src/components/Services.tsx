@@ -10,7 +10,7 @@ const Services = () => {
       description: 'Custom web applications using modern technology stacks for scalable solutions.',
       features: ['MERN Stack', 'MEAN Stack', 'Full-stack solutions'],
       projects: [
-        { name: 'Foodfly', description: 'Food Delivery Website', image: 'https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=400', link: 'https://foodfly-restaurent.netlify.app' },
+        { name: 'Foodfly', description: 'Food Delivery Website', image: 'https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=400', link: 'https://client-foodfly-bftd.onrender.com' },
         { name: 'Artilink', description: 'A platform connecting artisans with businesses, enabling direct B2B trade, fair pricing, and AI-powered insights for the handmade industry.', image: 'https://images.pexels.com/photos/5974415/pexels-photo-5974415.jpeg?auto=compress&w=400', link: 'https://artilink.netlify.app/' },
         { name: 'Weather App', description: 'A simple weather application built with modern web technologies.', image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&w=400', link: 'https://prakashnarayanam.github.io/SIMPLE-WEATHER-APP/' }
       ]
