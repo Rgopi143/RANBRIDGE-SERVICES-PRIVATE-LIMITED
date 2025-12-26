@@ -39,7 +39,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      info: 'ranbridgeservicesprivatelimite@gmail.com',
+      info: 'ranbidgesolutionspvtltd@gmail.com',
       link: 'mailto:ranbridgeservicesprivatelimite@gmail.com'
     },
     {
@@ -52,7 +52,7 @@ const Contact = () => {
       icon: MapPin,
       title: 'Visit Us',
       info: 'T Hub Phase 2 20, Inorbit Mall Road, Vittal Rao Nagar, Madhapur, Madhapur, Telangana - 500081 India',
-      link: 'mailto:ranbridgeserviceprivatelimited@gmail.com?subject=Visit%20Request'
+      link: 'mailto:ranbidgesolutionspvtltd@gmail.com?subject=Visit%20Request'
     }
   ];
 
