@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   const externalLink = {
-    url: 'https://ranbridge-intern-web.netlify.app/',
+    url: 'https://ranbidge-intern-website.netlify.app/',
     label: 'Visit Courses',
   };
 
