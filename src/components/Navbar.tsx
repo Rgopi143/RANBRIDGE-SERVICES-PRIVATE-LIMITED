@@ -54,7 +54,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src="https://ik.imagekit.io/76tcs71lul/company%20Logo.png?updatedAt=1760552763272"
+              src="https://ik.imagekit.io/lg14qfjkg/RANBIDGE%20SOLUTIONS%20PRIVATE%20LIMITED.png"
               alt="RANBRIDGE Logo"
               className="h-12 w-auto object-contain"
             />
