@@ -32,8 +32,8 @@ const Services = () => {
       description: 'Intelligent chatbots, assistants, and content tools powered by AI and machine learning.',
       features: ['AI Chatbots', 'Virtual Assistants', 'Machine Learning'],
       projects: [
-        { name: 'House Price Prediction', description: 'A machine learning project to predict house prices based on various features and datasets.', image: 'https://images.pexels.com/photos/4386326/pexels-photo-4386326.jpeg?auto=compress&w=400', link: 'https://github.com/Rgopi143/predating-of-Home-prices-using-Machine-Learning.git' },
-        { name: 'AI Facial Recognition', description: 'An AI-powered application for facial recognition using advanced machine learning techniques.', image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&w=400', link: 'https://github.com/Rgopi143/Facial_Recognition_App.git' },
+        { name: 'House Price Prediction', description: 'A machine learning project to predict house prices based on various features and datasets.', image: 'https://images.pexels.com/photos/4386326/pexels-photo-4386326.jpeg?auto=compress&w=400', link: '#' },
+        { name: 'AI Facial Recognition', description: 'An AI-powered application for facial recognition using advanced machine learning techniques.', image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&w=400', link: '#' },
         { name: 'AI Lambda', description: 'A predictive analytics engine for business intelligence.', image: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&w=400', link: '#' }
       ]
     }
