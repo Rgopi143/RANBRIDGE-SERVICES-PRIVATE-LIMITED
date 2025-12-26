@@ -197,7 +197,7 @@ npm run build
 
 ## 📄 License
 
-© 2025 RANBRIDGE SERVICES PRIVATE LIMITED. All rights reserved.
+© 2025 RANBIDGE SOLUTIONS PRIVATE LIMITED. All rights reserved.
 
 ## 🤝 Contributing
 
@@ -208,10 +208,10 @@ This is a private company portfolio website. For business inquiries, please cont
 ## 📞 Support
 
 For technical support or business inquiries:
-- **Email**: ranbridgeserviceprivatelimited@gmail.com
+- **Email**: ranbidgesolutionspvtltd@gmail.com
 - **Phone**: +91 8247392437
 - **Address**: Srinivasa Nagar, Narasaraopet, Andhra Pradesh, India
 
 ---
 
-**RANBRIDGE SERVICES PRIVATE LIMITED** - Bridging innovation with impact through comprehensive IT services.
+**RANBIDGE SOLUTIONS PRIVATE LIMITED** - Bridging innovation with impact through comprehensive IT services.
