@@ -1,6 +1,6 @@
-# RANBRIDGE SERVICES - Portfolio Website
+# RANBIDGE SOLUTIONS - Portfolio Website
 
-A modern, responsive portfolio website for RANBRIDGE SERVICES PRIVATE LIMITED, showcasing comprehensive IT services and the talented team behind the company.
+A modern, responsive portfolio website for RANBIDGE SOLUTIONS PRIVATE LIMITED, showcasing comprehensive IT services and the talented team behind the company.
 
 ## 🌟 Features
 
@@ -77,7 +77,7 @@ project/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd "RANBRIDGE SERVICES PRIVATE LIMITED PORTFOLIO WEBSITE/project"
+   cd "RANBIDGE SOLUTIONS PRIVATE LIMITED PORTFOLIO WEBSITE/project"
    ```
 
 2. **Install dependencies**
