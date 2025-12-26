@@ -44,7 +44,7 @@ const Footer = (props: { onPrivacyClick?: () => void; onTermsClick?: () => void;
         <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">RANBRIDGE SERVICES</h3>
+            <h3 className="text-2xl font-bold mb-4">RANBIDGE SERVICES</h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Bridging innovation with impact through comprehensive IT services. 
               Your trusted partner for web development, mobile apps, AI solutions, and digital transformation.
@@ -56,7 +56,7 @@ const Footer = (props: { onPrivacyClick?: () => void; onTermsClick?: () => void;
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-blue-400" />
-                <span className="text-gray-400">ranbridgeservicesprivatelimite@gmail.com</span>
+                <span className="text-gray-400">ranbidgesolutionspvtltd@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-blue-400" />
@@ -127,7 +127,7 @@ India</span>
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 RANBRIDGE SERVICES PRIVATE LIMITED. All rights reserved.
+            © 2025 RANBIDGE SOLUTIONS PRIVATE LIMITED. All rights reserved.
           </p>
           
           {/* Social Links */}
