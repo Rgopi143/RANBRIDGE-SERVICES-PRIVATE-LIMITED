@@ -36,7 +36,7 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-delay-2">
           <button 
-            onClick={() => window.open('https://ranbridge-intern-web.netlify.app/', '_blank')}
+            onClick={() => window.open('https://ranbidge-intern-website.netlify.app/', '_blank')}
             className="group px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-full hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2"
           >
             Get Started
